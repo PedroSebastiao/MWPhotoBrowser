@@ -72,6 +72,8 @@
 // Properties
 @property (nonatomic) UIActivityViewController *activityViewController;
 
+@property (nonatomic, readonly, getter = isShowingGrid) BOOL showingGrid;
+
 // Layout
 - (void)layoutVisiblePages;
 - (void)performLayout;

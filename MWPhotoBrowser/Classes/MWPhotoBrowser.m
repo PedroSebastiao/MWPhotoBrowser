@@ -1588,4 +1588,9 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (BOOL)isShowingGrid
+{
+    return _gridController ? YES : NO;
+}
+
 @end
